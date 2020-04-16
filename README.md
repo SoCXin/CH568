@@ -1,25 +1,36 @@
-﻿# [CH54](https://github.com/sochub/CH54)
+﻿# [CH568](https://github.com/sochub/CH568) 
 
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
-####  qitas@qitas.cn
-#### 父级：[WCH](https://github.com/sochub/WCH) 
-#### 近似：[CH55](https://github.com/sochub/CH55)
-#### 归属：[MCS-51](https://github.com/sochub/MCS-51)
+[![sites](http://182.61.61.133/link/resources/SoC.png)](https://stop.stops.top) 
 
-## [描述](https://github.com/sochub/CH54/wiki) 
+#### [Vendor](https://github.com/sochub/Vendor)：[WCH](https://github.com/sochub/WCH)
+#### [Cortex](https://github.com/sochub/Cortex)：[ARM9](https://github.com/sochub/ARM)
+#### [Level](https://github.com/sochub/Level)：96/120MHz 
 
-江苏沁恒增强型8051内核单片机，在USB功能的基础上添加更丰富的接口和封装，包括更高精度的ADC和更多的触控按键支持。
+### [CH568简介](https://github.com/sochub/CH568/wiki)
 
-[![sites](SoC/CH54.png)](http://www.wch.cn/products/category/5.html) 
+[CH568](https://github.com/sochub/CH568) 是一款高性能32位精简指令集微控制器，系统主频可达120MHZ。片上集成高速USB控制器、SATA2.0控制器以及多组SDIO控制器接口等外设资源，并提供SM4和AES两种加解密算法，支持8种加解密模式。可广泛应用高速传输、信息安全领域。
 
+* 192KB CodeFlash、32KB SRAM、32KB DATA Flash。
 
-### [包括型号](https://github.com/sochub/CH54)
+* SATA主机/设备控制器, 4组SDIO接口。
 
-- [CH546](https://github.com/sochub/CH546) 
-- [CH547](https://github.com/sochub/CH547) 
-- [CH548](https://github.com/sochub/CH548) 
-- [CH549](https://github.com/sochub/CH549) 
+* 支持SM4/AES加密算法，8种加密模式。
 
+[![sites](docs/CH568.png)](http://wch.cn/download/CH568DS1_PDF.html)
 
-##  [SoC开发平台](http://www.qitas.cn)  
+封装：LQFP48
 
+### [收录资源](https://github.com/sochub/CH568)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+
+### [关联资源](https://github.com/sochub)
+
+* [arm-none-eabi编译器](https://github.com/sochub/arm-none-eabi)
+
+### [选型建议](https://github.com/sochub)
+
+[CH568](https://github.com/sochub/CH568) 集成加密算法和大量存储接口，可以应用于大容量存储的MCU场合
+
+##  [SoC资源平台](http://www.qitas.cn)
