@@ -1,0 +1,62 @@
+{
+    "type":"MCU",
+    "name":"HR7P153",
+    "tags": ["OTP","LOWPIN"],
+    "series":["ES7P1732P4RF","ES7P1732P4SF","ES7P1731P4SD"],
+    "description":"Eastsoft 8bit RISC OTP MCU",
+    "peripheral": ["ADC","TIM","PWM"],
+    "package":["MSOP10","SOP14","SOP16"],
+    "encryption": ["OTP"],
+    "SRAM":128,
+    "OTP":4032,
+    "Core": {
+        "num": 1,
+        "architecture":"RISC",
+        "Freq":16
+    },
+    "Level": {
+        "main":1,
+        "sub":12,
+        "price":0.7
+    },
+    "GPIO": {
+        "num": [6,13],
+        "irq": 4
+    },
+    "ADC": {
+        "num": 1,
+        "channel": 6,
+        "resolution": 12,
+        "rate": 1024
+    },
+    "TIM": {
+        "resolution":[8,8]
+    },
+    "PWM": {
+        "num": 2,
+        "resolution": 9,
+        "rate": 256
+    },
+    "CLK": {
+        "HSE": [1000,16000],
+        "HSI": [16000],
+        "LSI": [32],
+        "PLL": [16000,16000],
+        "DIV": [1,128],
+        "accuracy": 0.02
+    },
+    "PWR": {
+        "VDD": [2100,5500],
+        "IDD": [2.21,14.31],
+        "Imax": 120
+    },
+    "EMC": {
+        "HSE": [2000,24000],
+        "ESD": [31]
+    },
+    "vendor":"Eastsoft",
+    "url":"http://www.SoC.xin/HR7P153",
+    "repo":"https://github.com/SoCXin/HR7P153",
+    "homepage": "http://www.essemi.com/product/18.html",
+    "version":"1.0.0"
+}

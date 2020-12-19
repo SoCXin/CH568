@@ -1,36 +1,45 @@
-﻿# [CH568](https://github.com/sochub/CH568) 
+﻿# [HR7P153](https://github.com/SoCXin/HR7P153)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](https://stop.stops.top) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/sochub/Vendor)：[WCH](https://github.com/sochub/WCH)
-#### [Cortex](https://github.com/sochub/Cortex)：[ARM9](https://github.com/sochub/ARM)
-#### [Level](https://github.com/sochub/Level)：96/120MHz 
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[Eastsoft](http://www.essemi.com/)
+#### [Core](https://github.com/SoCXin/RISC)：[RISC](https://github.com/SoCXin/RISC)
+#### [Level](https://github.com/SoCXin/Level) ：16 MHz
 
-### [CH568简介](https://github.com/sochub/CH568/wiki)
+## [HR8P506简介](https://github.com/SoCXin/HR7P153/wiki)
 
-[CH568](https://github.com/sochub/CH568) 是一款高性能32位精简指令集微控制器，系统主频可达120MHZ。片上集成高速USB控制器、SATA2.0控制器以及多组SDIO控制器接口等外设资源，并提供SM4和AES两种加解密算法，支持8种加解密模式。可广泛应用高速传输、信息安全领域。
+[HR7P153](https://github.com/SoCXin/HR7P153) 自有架构，OTP低成本产品
 
-* 192KB CodeFlash、32KB SRAM、32KB DATA Flash。
+* 工作电压范围：2.1V ~ 5.5V
+* 封装SOP16/14，MSOP10
+* IDLE电流：3uA Typ.
+* 动态电流：1.5mA@16MHz，Typ.
+* 系统时钟工作频率最高为20MHz
+* 内部16MHz RC时钟，全温度频率精度±3%
+* 最多13个I/O和1个输入端口
+* 2K x 16bits OTP
+* 64 x 8bits SRAM
+* 支持ISP功能
+* 两个8位定时器
+* 两组带死区互补PWM，9位分辨率
+* ADC：12位精度，6通道
+* 低电压检测模块LVD
 
-* SATA主机/设备控制器, 4组SDIO接口。
+[![sites](docs/HR7P153.png)](http://www.essemi.com/product/15.html)
 
-* 支持SM4/AES加密算法，8种加密模式。
+#### 关键特性
 
-[![sites](docs/CH568.png)](http://wch.cn/download/CH568DS1_PDF.html)
+* 12bit ADC
 
-封装：LQFP48
 
-### [收录资源](https://github.com/sochub/CH568)
+### [资源收录](https://github.com/SoCXin/HR7P153)
 
 * [参考文档](docs/)
 * [参考资源](src/)
+* [参考工程](project/)
 
-### [关联资源](https://github.com/sochub)
+### [选型建议](https://github.com/SoCXin)
 
-* [arm-none-eabi编译器](https://github.com/sochub/arm-none-eabi)
+[HR7P153](https://github.com/SoCXin/HR7P153) 应用领域：移动电源、数显表、小家电等
 
-### [选型建议](https://github.com/sochub)
-
-[CH568](https://github.com/sochub/CH568) 集成加密算法和大量存储接口，可以应用于大容量存储的MCU场合
-
-##  [SoC资源平台](http://www.qitas.cn)
+###  [www.SoC.xin(芯)](http://www.SoC.Xin)
