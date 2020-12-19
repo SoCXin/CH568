@@ -2,17 +2,17 @@
     "type":"MCU",
     "name":"HR7P153",
     "tags": ["OTP","LOWPIN"],
-    "series":["ES7P1732P4RF","ES7P1732P4SF","ES7P1731P4SD"],
+    "series":["HR7P1534SD","HR7P153P4SC","HR7P153P4MB"],
     "description":"Eastsoft 8bit RISC OTP MCU",
     "peripheral": ["ADC","TIM","PWM"],
     "package":["MSOP10","SOP14","SOP16"],
     "encryption": ["OTP"],
-    "SRAM":128,
-    "OTP":4032,
+    "SRAM":64,
+    "OTP":2048,
     "Core": {
         "num": 1,
         "architecture":"RISC",
-        "Freq":16
+        "Freq":20
     },
     "Level": {
         "main":1,
@@ -38,7 +38,7 @@
         "rate": 256
     },
     "CLK": {
-        "HSE": [1000,16000],
+        "HSE": [1000,20000],
         "HSI": [16000],
         "LSI": [32],
         "PLL": [16000,16000],

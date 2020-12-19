@@ -25,7 +25,7 @@
 * ADC：12位精度，6通道
 * 低电压检测模块LVD
 
-[![sites](docs/HR7P153.png)](http://www.essemi.com/product/15.html)
+[![sites](docs/HR7P153.png)](http://www.essemi.com/product/18.html)
 
 #### 关键特性
 
